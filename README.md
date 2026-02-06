@@ -1,6 +1,5 @@
-# 243Lab
+# 243Lab - Plastic Hunter
 
-## Project Overview
 "Plastic Hunter" models ocean cleanup as a dynamic pursuit problem: predict the movement of high-density plastic debris zones and route a cleanup vessel to intercept the most plastic per fuel dollar. Because the Great Pacific Garbage Patch shifts with ocean currents, static collection strategies underperform. This project focuses on forecasting drifting targets and optimizing interception paths under uncertainty.
 
 ### Data Sources
