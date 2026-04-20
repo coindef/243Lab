@@ -1,1 +1,35 @@
 gurobi.lic
+
+# --- Dashboard cache (downloaded from Google Drive at runtime) ---
+dashboard/data/*.pkl
+dashboard/data/*.pickle
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Streamlit secrets (local only, never commit) ---
+dashboard/.streamlit/secrets.toml
+
+# --- Jupyter / notebook temp ---
+.ipynb_checkpoints/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log

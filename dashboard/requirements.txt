@@ -1,0 +1,10 @@
+streamlit>=1.30
+plotly>=5.18
+numpy
+pandas
+scipy
+xarray
+netCDF4
+cloudpickle
+gdown>=5.0
+qrcode[pil]>=7.4
