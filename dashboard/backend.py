@@ -50,7 +50,7 @@ import numpy as np
 # Paste the file ID from the shareable Google Drive link here.
 # Example link:  https://drive.google.com/file/d/1AbCdEfGhIjK.../view?usp=sharing
 #                                             ^^^^^^^^^^^^^^^^^^^  <- this part
-BUNDLE_GDRIVE_ID = os.environ.get("BUNDLE_GDRIVE_ID", "1km3Wr0i1Y752BH5OnId_aIhaIVG1PYdY")
+BUNDLE_GDRIVE_ID = os.environ.get("BUNDLE_GDRIVE_ID", "1_xQOktokI45LVZkCjpUz3rlXIW_ha8Mw")
 
 # Local cache path (relative to this file). The file is downloaded on first run.
 BUNDLE_PATH = os.path.join(os.path.dirname(__file__), "data",
