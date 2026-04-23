@@ -1,5 +1,8 @@
 gurobi.lic
 
+# --- Dashboard bundle artifact (rebuilt by notebook; too large for git) ---
+optimization_dashboard_bundle.pkl
+
 # --- Dashboard cache (downloaded from Google Drive at runtime) ---
 dashboard/data/*.pkl
 dashboard/data/*.pickle

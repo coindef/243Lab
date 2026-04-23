@@ -6,3 +6,5 @@ scipy>=1.7.0
 xarray>=2023.1.0
 netcdf4>=1.6.0
 # Optional: cartopy (maps), gurobipy (MILP), geopandas (river data)
+# Open-source MILP (used by main_optimization_model_Jun_CBC.ipynb): no license required
+pulp>=2.7.0
