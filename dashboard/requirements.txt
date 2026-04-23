@@ -1,8 +1,11 @@
 streamlit>=1.30
 plotly>=5.18
-numpy
-pandas
-scipy
+# Pin to NumPy 1.x — the dashboard bundle pickle was generated with NumPy 1.x,
+# and NumPy 2.0 removed the internal numpy.linalg.linalg module, which breaks
+# unpickling with "No module named 'numpy.linalg.linalg'".
+numpy<2
+pandas<2.2
+scipy<1.14
 xarray
 netCDF4
 cloudpickle
