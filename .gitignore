@@ -1,1 +1,6 @@
 gurobi.lic
+
+# Dashboard bundle artifact (rebuilt by running the notebook; too large for git)
+optimization_dashboard_bundle.pkl
+__pycache__/
+*.pyc
